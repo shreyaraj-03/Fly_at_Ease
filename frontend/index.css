@@ -1,0 +1,29 @@
+.bodyy{
+    margin: 0;
+    padding: 0;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+canvas{
+    position: absolute;
+}
+#allow,#vid,#ins{
+    display: none;
+}
+body{
+    background-image: url(./bgimg/bg.jpg);
+}
+.head{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+footer{
+    position: absolute;
+    bottom:0%;
+    color: white;
+    align-items: center;
+}
